@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Great Accout</title>
+</head>
+
+<body>
+    <form action="">
+        <Fieldset>
+            <legend> Resgistration infomation</legend>
+            <label for="fristName">Frist Name*:</label>
+            <input type="text" name="fristName" id="fristName" placeholder="Enter your frist name" required>
+            <label for="lastName"> Last Name:*</label>
+            <input type="text" name="lastname" id="lastName"placeholder="Enter your last name" required><br>
+            <label for="Email"> Email*:</label>
+            <input type="text" name="Email" id="Email" placeholder="Enter your mail" required>
+            <label for="Phone">Phone*</label>
+            <input type="number" name="Phone" id="Phone" placeholder="Enter your Phone" required> <br>
+            <label for="Password">Password*:</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter your Password"required>
+            <label for="ConfirmPassword">Confirm Password:</label>
+            <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Enter your Password"required>
+
+        </Fieldset>
+        <Fieldset>
+            <legend>Resgistration infomation</legend>
+            Gender: <input type="radio" name="gender" value="male" checked>
+            <label>Male</label> <input type="radio" name="gender" value="female"> <label> Female</label>
+            <b>Hobbies:</b> <input type="checkbox" name="music" value="mussic" checked> <label> Music</label>
+            <input type="checkbox" name="sport" value="sport"> <label>Sport</label>
+            <input type="checkbox" name="travel" value="travel"> <label>Travel</label>
+            <input type="checkbox" name="movies" value="movies"> <label> Movies</label> <br>
+            <b>Source of Income:</b>
+            <select>
+                <option value="Employed">Employed</option>
+                <option value="Student">Student</option>
+            </select>
+            <b>Income:</b>
+            <input type="range" name="point" min="1" max="5"> <br>
+            <b>Age:</b> <input type="number" name="age" min="18">
+            <b>Profile Picture:</b><input type="file" name="avatar"> <br>
+            <b>Brithday:</b> <input type="datetime-local" name="daytime">
+            <b>Address:</b> <input type="text"> <br>
+            <label > Bio</label><br>
+            <textarea name="bio" id="" cols="30" rows="3"></textarea> <br>
+            <input type="submit">
+            <input type="reset">
+
+
+
+
+        </Fieldset>
+    </form>
+</body>
+
+</html>
